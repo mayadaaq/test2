@@ -1,0 +1,11 @@
+framework module PrebidPlugin {
+  umbrella header "PrebidPlugin.h"
+
+  export *
+  module * { export * }
+}
+
+module PrebidPlugin.Swift {
+    header "PrebidPlugin-Swift.h"
+    requires objc
+}
